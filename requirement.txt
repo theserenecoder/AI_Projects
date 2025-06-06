@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-community
+langchain-openai
+python-dotenv
+pydantic
+unstructured[all-docs]
+pillow
+lxml
+poppler-utils
+langchain-groq
