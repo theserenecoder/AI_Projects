@@ -10,3 +10,4 @@ lxml
 poppler-utils
 langchain-groq
 langchain_astradb
+langgraph
