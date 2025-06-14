@@ -14,7 +14,7 @@ The agent's workflow is orchestrated using LangGraph, defining a state machine w
 5.  **Validation:** Evaluates the generated response (from either RAG or LLM) against the original query to determine if it's a "pass" (adequate answer) or "fail" (irrelevant, incomplete, etc.).
 6.  **Router Nodes:** Direct the flow of the graph based on the output of the Supervisor, LLM (for tool calls), and Validation nodes.
 
-![LangGraph Agent Flow](Projects\RAG_Agent_with_Tavily\content\output.png)
+![LangGraph Agent Flow](content/output.png)
 
 ## Setup and Installation
 
