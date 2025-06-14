@@ -1,15 +1,3 @@
-# MultiModal RAG Agent with Tavily
-
-This repository contains a LangChain-powered MultiModal RAG (Retrieval Augmented Generation) agent. The agent is designed to answer user queries by leveraging both textual and visual information from a document, and can also utilize external tools like Tavily Search for information outside its internal knowledge base.
-
-## Features
-
-* **Multi-Modal RAG:** Processes and retrieves information from both text and image elements within PDF documents.
-* **Intelligent Routing:** A supervisor agent intelligently routes user queries to either the internal RAG system (for LLM/Transformer-related topics) or a general LLM with tool-use capabilities (for broader or real-time information needs).
-* **Dynamic Tool Use:** Integrates with Tavily Search to access up-to-date external information when required.
-* **Response Validation:** Includes a validation step to ensure the generated responses are relevant and accurate to the original query.
-* **Scalable Storage:** Utilizes AstraDB Vector Store for efficient similarity search and InMemoryStore for document storage.
-
 ## Architecture
 
 The agent's workflow is orchestrated using LangGraph, defining a state machine with the following key nodes:
@@ -26,17 +14,50 @@ The agent's workflow is orchestrated using LangGraph, defining a state machine w
 5.  **Validation:** Evaluates the generated response (from either RAG or LLM) against the original query to determine if it's a "pass" (adequate answer) or "fail" (irrelevant, incomplete, etc.).
 6.  **Router Nodes:** Direct the flow of the graph based on the output of the Supervisor, LLM (for tool calls), and Validation nodes.
 
-```mermaid
-graph TD
-    A[START] --> B(Supervisor);
-    B --> C{Router};
-    C -- "Related" --> D(RAG);
-    C -- "Not Related" --> E(LLM);
-    E --> F{Tools Condition};
-    F -- "tools" --> G(tools);
-    G --> E;
-    D --> H(Validation);
-    F -- "Validation" --> H;
-    H --> I{Validation Router};
-    I -- "pass" --> J[END];
-    I -- "fail" --> B;
+![LangGraph Agent Flow](Projects\RAG_Agent_with_Tavily\content\output.png)
+
+## Setup and Installation
+
+
+## Setup
+
+1.  **Clone the Repository:**
+    
+    git clone [<https://github.com/theserenecoder/AI_Projects.git>](https://github.com/theserenecoder/AI_Projects.git)
+    
+
+2.  **Create a Virtual Environment:**
+    ```bash
+    python -m venv venv
+    source venv/Scripts/activate  # On Windows
+    # source venv/bin/activate    # On macOS/Linux
+    ```
+
+3.  **Install Python Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    # (Ensure requirements.txt contains: unstructured, langchain-unstructured[local], langchain-astradb, pypdf, python-dotenv, etc.)
+    ```
+    If you don't have a `requirements.txt`, you can install manually:
+    ```bash
+    pip install unstructured langchain-unstructured[local] langchain-astradb pypdf python-dotenv
+    ```
+
+4.  **Install External Dependencies:**
+    * **Poppler:** Required by `unstructured` for PDF processing.
+        * Download from [https://github.com/oschwartz10612/poppler-windows/releases](https://github.com/oschwartz10612/poppler-windows/releases) (for Windows).
+        * Extract and add the `bin` directory to your system's `PATH`.
+    * **Tesseract OCR:** Required by `unstructured` for image OCR.
+        * Download from [https://github.com/UB-Mannheim/tesseract/wiki](https://github.com/UB-Mannheim/tesseract/wiki) (for Windows).
+        * Install and add the installation directory (e.g., `C:\Program Files\Tesseract-OCR`) to your system's `PATH`.
+
+5.  **Set up AstraDB:**
+    * Create an AstraDB instance and a database.
+    * Obtain your AstraDB API Endpoint and Application Token.
+    * Set these as environment variables (e.g., in a `.env` file):
+        ```
+        ASTRA_DB_API_ENDPOINT="your_api_endpoint"
+        ASTRA_DB_APPLICATION_TOKEN="your_application_token"
+        ASTRA_DB_KEYSPACE="your_keyspace" # Optional
+        OPENAI_API_KEY="your_openai_api_key" # If using OpenAI embeddings/LLMs
+        ```
