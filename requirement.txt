@@ -11,3 +11,5 @@ poppler-utils
 langchain-groq
 langchain_astradb
 langgraph
+duckduckgo-search
+pyowm
