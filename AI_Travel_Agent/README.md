@@ -27,7 +27,19 @@ An intelligent AI agent built with **LangChain** and **LangGraph**, designed to 
 The AI Travel & Expense Planner leverages a **modular design**, orchestrating specialized components to process complex queries and generate detailed travel plans.
 
 
-<pre lang="markdown"> ```text travel_planner_app/ ├── .env # Environment variables (API Keys) ├── requirements.txt # Python dependencies ├── app.py # Main Streamlit application └── src/ # Core Python modules ├── __init__.py # Marks src as a Python package ├── config.py # API Key management ├── tools.py # Definitions of all custom tools (Weather, Currency, Search, Calculator) └── agent.py # LangGraph Agent orchestration logic ``` </pre>
+<pre lang="markdown"> 
+```text 
+travel_planner_app/ 
+├── .env # Environment variables (API Keys) 
+├── requirements.txt # Python dependencies 
+├── app.py # Main Streamlit application 
+└── src/ # Core Python modules 
+    ├── __init__.py # Marks src as a Python package 
+    ├── config.py # API Key management 
+    ├── tools.py # Definitions of all custom tools (Weather, Currency, Search, Calculator) 
+    └── agent.py # LangGraph Agent orchestration logic 
+``` 
+</pre>
 
 ---
 
