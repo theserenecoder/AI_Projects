@@ -1,4 +1,5 @@
 --- Final Agent Response ---
+
 Below is your complete 5-day trip plan to Delhi next month. This itinerary is designed with a focus on local food, historical sites, public transportation, and staying within your hotel budget (≈ $70 USD per night). Prices are provided in USD and INR, and we have also included a conversion to CAD per your native currency. Enjoy a culturally immersive and budget-friendly adventure in Delhi!
 
 ************************************************************************
