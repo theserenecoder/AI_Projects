@@ -87,15 +87,15 @@ The agent cycles through LLM reasoning and tool execution until a comprehensive 
 ### 🛠️ Installation
 
 #### Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME  # Replace with your actual repo name
-'''
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+    cd YOUR_REPOSITORY_NAME  # Replace with your actual repo name
+    '''
 
 #### Install dependencies:
-'''bash
-pip install -r requirements.txt
-'''
+    '''bash
+    pip install -r requirements.txt
+    '''
 
 ## 🔐 API Key Configuration
 Create a .env file in the root directory of your project and add:
@@ -108,9 +108,9 @@ Create a .env file in the root directory of your project and add:
 
 ## ▶️ Running the Application
 From the project root, run:
-'''bash
-    streamlit run app.py
-'''
+    '''bash
+        streamlit run app.py
+    '''
 This will launch the app in your default browser.
 
 
@@ -132,8 +132,8 @@ This will launch the app in your default browser.
 
 
 ## 📈 Example Query
-'''Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is around $100 per night. I’d like to know what the weather will be like, what places I can visit, and how much the whole trip might cost. I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
-'''
+    '''Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is around $100 per night. I’d like to know what the weather will be like, what places I can visit, and how much the whole trip might cost. I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
+    '''
 
 
 ## ✉️ Contact
