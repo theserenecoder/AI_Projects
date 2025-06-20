@@ -28,8 +28,7 @@ The AI Travel & Expense Planner leverages a **modular design**, orchestrating sp
 
 
 <pre lang="markdown"> 
-```text 
-travel_planner_app/ 
+travel_planner_app/
 ├── .env # Environment variables (API Keys) 
 ├── requirements.txt # Python dependencies 
 ├── app.py # Main Streamlit application 
@@ -38,7 +37,6 @@ travel_planner_app/
     ├── config.py # API Key management 
     ├── tools.py # Definitions of all custom tools (Weather, Currency, Search, Calculator) 
     └── agent.py # LangGraph Agent orchestration logic 
-``` 
 </pre>
 
 ---
@@ -78,6 +76,7 @@ The LLM invokes these tools, processes their outputs, and refines its understand
 ## ✅ Validation & Output
 The agent cycles through LLM reasoning and tool execution until a comprehensive plan is formed. The final output is formatted in Markdown and displayed in the Streamlit app.
 
+![AI Travel Agent Output](images/Travel_agent_homescreen.png)
 ---
 
 ## 🚀 Getting Started
@@ -149,8 +148,6 @@ Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is ar
 I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
 ```
 
-## ✅ Output
-![AI Travel Agent Output](images/Travel_agent_homescreen.png)
 
 ## ✉️ Contact
 [Ashutosh Sharma](www.linkedin.com/in/ashutoshsharma25)
