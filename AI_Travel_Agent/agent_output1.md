@@ -1,19 +1,19 @@
---- Final Agent Response ---
+## Final Agent Response 
 
 Below is your complete 5-day trip plan to Delhi next month. This itinerary is designed with a focus on local food, historical sites, public transportation, and staying within your hotel budget (≈ $70 USD per night). Prices are provided in USD and INR, and we have also included a conversion to CAD per your native currency. Enjoy a culturally immersive and budget-friendly adventure in Delhi!
 
 ************************************************************************
-**Your Trip to Delhi**  
+### **Your Trip to Delhi**  
 Dates: 2023-11-10 to 2023-11-14 (5 days)  
 
-**Overall Itinerary Summary:**  
+### **Overall Itinerary Summary:**  
 This itinerary will immerse you in the rich historical, cultural, and gastronomical heritage of Delhi. You’ll explore iconic landmarks like the Red Fort, Qutub Minar, and India Gate, and enjoy delicious local meals at renowned spots like Karim’s and traditional dhabas. Local transportation (metro, auto rickshaws, and buses) is incorporated for an authentic and cost-effective experience.
 
-**Budget Details:**  
-• Accommodation: 5 nights x $70 ≈ $350 USD (~28,700 INR)  
-• Food: Approximately $100 USD (~8200 INR)  
-• Attractions/Activities: Approximately $50 USD (~4100 INR)  
-• Local Transportation: Approximately $25 USD (~2050 INR)  
+### **Budget Details:**  
+- Accommodation: 5 nights x $70 ≈ $350 USD (~28,700 INR)  
+- Food: Approximately $100 USD (~8200 INR)  
+- Attractions/Activities: Approximately $50 USD (~4100 INR)  
+- Local Transportation: Approximately $25 USD (~2050 INR)  
 -------------------------------------------------------------  
 Estimated Total Trip Cost: ~$525 USD  
 Converted to Canadian Dollars: ~ $525 x 1.35 ≈ $710 CAD  
