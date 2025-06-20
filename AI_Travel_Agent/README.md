@@ -7,11 +7,17 @@ An intelligent AI agent built with **LangChain** and **LangGraph**, designed to 
 ## ✨ Features
 
 - **Complete Day-by-Day Itineraries**: Generates detailed plans with specific activities and timings.
+
 - **Real-time Weather Integration**: Fetches current weather and multi-day forecasts for the destination.
+
 - **Smart Search Capabilities**: Recommends attractions, restaurants, activities, hotels, and transportation options using external search tools (Google Serper, Tavily, DuckDuckGo).
+
 - **Detailed Cost Management**: Calculates estimated costs (accommodation, food, activities, transport) and provides currency conversion to the user's native currency.
+
 - **User-Centric Planning**: Prioritizes and integrates user preferences (e.g., budget, interests, dietary needs, travel companions, transportation preferences).
+
 - **Modular Architecture**: Designed for maintainability and scalability, separating concerns into distinct Python modules.
+
 - **Interactive Streamlit UI**: A user-friendly web interface for easy interaction.
 
 ---
@@ -77,32 +83,32 @@ The agent cycles through LLM reasoning and tool execution until a comprehensive 
 ### 🛠️ Installation
 
 #### Clone the repository:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    cd YOUR_REPOSITORY_NAME  # Replace with your actual repo name
-    ```
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME  # Replace with your actual repo name
+```
 
 #### Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## 🔐 API Key Configuration
 Create a .env file in the root directory of your project and add:
 
-    ```
-        OPENAI_API_KEY="your_openai_api_key_here"
-        OPENWEATHERMAP_API_KEY="your_openweathermap_api_key_here"
-        SERPER_API_KEY="your_google_serper_api_key_here"
-        TAVILY_API_KEY="your_tavily_api_key_here"
-    ```
+```
+OPENAI_API_KEY="your_openai_api_key_here"
+OPENWEATHERMAP_API_KEY="your_openweathermap_api_key_here"
+SERPER_API_KEY="your_google_serper_api_key_here"
+TAVILY_API_KEY="your_tavily_api_key_here"
+```
 
 ## ▶️ Running the Application
 From the project root, run:
 
-    ```bash
-        streamlit run app.py
-    ```
+```
+streamlit run app.py
+```
 
 This will launch the app in your default browser.
 
@@ -126,12 +132,13 @@ This will launch the app in your default browser.
 
 ## 📈 Example Query
 
-    ```
-        Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is around $100 per night. I’d like to know what the weather will be like, what places I can visit, and how much the whole trip might cost. I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
-    ```
+```
+Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is around $100 per night. I’d like to know what the weather will be like, what places I can visit, and how much the whole trip might cost. 
+I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
+```
 
 ## ✅ Output
 ![AI Travel Agent Output](images/Travel_agent_homescreen.png)
 
 ## ✉️ Contact
-[Ashutosh Sharma : www.linkedin.com/in/ashutoshsharma25] 
+[Ashutosh Sharma](www.linkedin.com/in/ashutoshsharma25)
