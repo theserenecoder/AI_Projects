@@ -90,7 +90,7 @@ The agent cycles through LLM reasoning and tool execution until a comprehensive 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 cd YOUR_REPOSITORY_NAME  # Replace with your actual repo name
-'''bash
+'''
 
 #### Install dependencies:
 '''bash
