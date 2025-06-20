@@ -99,18 +99,21 @@ The agent cycles through LLM reasoning and tool execution until a comprehensive 
 
 ## 🔐 API Key Configuration
 Create a .env file in the root directory of your project and add:
+
     '''
-    OPENAI_API_KEY="your_openai_api_key_here"
-    OPENWEATHERMAP_API_KEY="your_openweathermap_api_key_here"
-    SERPER_API_KEY="your_google_serper_api_key_here"
-    TAVILY_API_KEY="your_tavily_api_key_here"
+        OPENAI_API_KEY="your_openai_api_key_here"
+        OPENWEATHERMAP_API_KEY="your_openweathermap_api_key_here"
+        SERPER_API_KEY="your_google_serper_api_key_here"
+        TAVILY_API_KEY="your_tavily_api_key_here"
     '''
 
 ## ▶️ Running the Application
 From the project root, run:
+
     '''bash
         streamlit run app.py
     '''
+
 This will launch the app in your default browser.
 
 
@@ -132,9 +135,13 @@ This will launch the app in your default browser.
 
 
 ## 📈 Example Query
-    '''Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is around $100 per night. I’d like to know what the weather will be like, what places I can visit, and how much the whole trip might cost. I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
+
+    '''
+        Hey there! I'm planning a 7-day trip to Rome for next May. My hotel budget is around $100 per night. I’d like to know what the weather will be like, what places I can visit, and how much the whole trip might cost. I’ll be paying in Japanese Yen, but my native currency is CAD. Also, I prefer local food and public transportation. Can you plan it all for me?
     '''
 
+## ✅ Output
+![AI Travel Agent Output](AI_Travel_Agent\images\Travel_agent_homescreen.png)
 
 ## ✉️ Contact
 [Ashutosh Sharma : www.linkedin.com/in/ashutoshsharma25]
