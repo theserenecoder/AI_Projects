@@ -77,11 +77,16 @@ The LLM invokes these tools, processes their outputs, and refines its understand
 The agent cycles through LLM reasoning and tool execution until a comprehensive plan is formed. The final output is formatted in Markdown and displayed in the Streamlit app.
 
 ![AI Travel Agent Output](images/Travel_agent_homescreen.png)
-![AI Travel Agent Output2](images/Travel_agent_Response1.png)
-![AI Travel Agent Output3](images/Travel_agent_Response4.png)
-![AI Travel Agent Output4](images/Travel_agent_Response5.png)
-![AI Travel Agent Output5](images/Travel_agent_Response6.png)
-![AI Travel Agent Output6](images/Travel_agent_Response7.png)
+
+![AI Travel Agent Output1](images/Travel_Agent_Response_PG1.png)
+
+![AI Travel Agent Output2](images/Travel_Agent_Response_PG2.png)
+
+![AI Travel Agent Output3](images/Travel_Agent_Response_PG4.png)
+
+![AI Travel Agent Output4](images/Travel_Agent_Response_PG5.png)
+
+![AI Travel Agent Output5](images/Travel_Agent_Response_PG6.png)
 
 ---
 
