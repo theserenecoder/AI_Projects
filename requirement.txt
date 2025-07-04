@@ -13,3 +13,5 @@ langchain_astradb
 langgraph
 duckduckgo-search
 pyowm
+arxiv
+yfinance
