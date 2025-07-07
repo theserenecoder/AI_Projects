@@ -30,9 +30,9 @@ The system is built as a LangGraph StateGraph, orchestrating the flow between di
 
 ![alt text](image-2.png)
 
-![alt text](image-3.png)
+![alt text](image-3.png) ![alt text](image-4.png)
 
-![alt text](image-4.png)
+
 
 
 # Agent Roles:
