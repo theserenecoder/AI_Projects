@@ -106,8 +106,8 @@ The agent cycles through LLM reasoning and tool execution until a comprehensive 
 
 #### Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME  # Replace with your actual repo name
+git clone https://github.com/theserenecoder/AI_Projects.git
+cd AI_Projects  
 ```
 
 #### Install dependencies:
