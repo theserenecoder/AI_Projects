@@ -26,11 +26,13 @@ Built with LangGraph, allowing for easy expansion with new agents, tools, and wo
 
 # 🚀 Architecture
 The system is built as a LangGraph StateGraph, orchestrating the flow between different specialized AI agents.
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
-![alt text](image-3.png) ![alt text](image-4.png)
+![alt text](images/image-3.png) 
+
+![alt text](images/image-4.png)
 
 
 
