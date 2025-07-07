@@ -38,7 +38,7 @@ The system is built as a LangGraph StateGraph, orchestrating the flow between di
 
     - **Medical Researcher**: Uses PubMedRetriever and TavilySearchResults for medical-specific inquiries.
 
-    - **Finance Researcher**: Uses YahooFinanceNewsTool, get_stock_price (yfinance), and TavilySearchResults (for ticker discovery) for financial analysis.
+    - **Finance Researcher**: Uses YahooFinanceNewsTool and get_stock_price (yfinance) for financial analysis.
 
 - **Report Team (Conceptual Node/Subgraph)**: The represents the collective intellegence for information gathering. In a full implementation, it contain a sub-supervisor that routes to:
 
