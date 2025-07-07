@@ -28,6 +28,12 @@ Built with LangGraph, allowing for easy expansion with new agents, tools, and wo
 The system is built as a LangGraph StateGraph, orchestrating the flow between different specialized AI agents.
 ![alt text](image-1.png)
 
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
 
 # Agent Roles:
 - **Head Supervisor**: The central orchestrator. It receives user queries and delegates tasks to either the Research Team or the Report Team based on the query's nature and the current workflow state.
